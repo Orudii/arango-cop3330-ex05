@@ -38,9 +38,6 @@ public class App {
         System.out.print("What is the second number? ");
         num2 = in.nextInt();
 
-        System.out.println("" +num1+ " + " +num2+ " = " + (num1+num2));
-        System.out.println("" +num1+ " - " +num2+ " = " + (num1-num2));
-        System.out.println("" +num1+ " * " +num2+ " = " + (num1*num2));
-        System.out.println("" +num1+ " / " +num2+ " = " + (num1/num2));
+        System.out.println("" +num1+ " + " +num2+ " = " +(num1+num2)+ "\n" +num1+ " - " +num2+ " = " +(num1-num2)+ "\n" +num1+ " * " +num2+ " = " +(num1*num2)+ "\n" +num1+ " / " +num2+ " = " + (num1/num2));
     }
 }
